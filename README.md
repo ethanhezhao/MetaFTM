@@ -14,10 +14,10 @@ The original paper introduced focusing on the topic-word distributions, i.e., Ph
 3. We have offered the WS dataset used in the paper, which is stored in MAT format, with the following contents:
 - train_doc: the sparse representation of the training documents, each row is a triplet [a, b, c], where a, b, c are document index, word index, and word occurrences, respectively.
 - train_label: the one-hot representation of the document labels.
-- test_doc_A/B: the first/second half of the testing documents, with the same format of train_doc
-- voc: vocabulary of the dataset
-- word_embeddings: the pretrained word embeddings of [GloVe](https://nlp.stanford.edu/projects/glove/)
-- label_name: the name of the document labels
+- test_doc_A/B: the first/second half of the testing documents, with the same format of train_doc.
+- voc: vocabulary of the dataset.
+- word_embeddings: the pretrained word embeddings of [GloVe](https://nlp.stanford.edu/projects/glove/).
+- label_name: the name of the document labels.
 
 Please prepare your own documents in the above format. If you want to use this dataset, please cite the original papers, which are cited in our paper.
 
@@ -26,7 +26,7 @@ Please prepare your own documents in the above format. If you want to use this d
 5. Important parameters:
 - alpha_option: use 'meta' if you want to turn on focusing of the document-topic distributions informed by the document labels.
 - beta_option: use 'meta' if you want to turn on focusing of the topic-word distributions informed by the word embeddings.
-- K: the number of topics
+- K: the number of topics.
 
 6. Outputs:
 
