@@ -38,4 +38,4 @@ The code also prints the top words for topics saved in './save/top_words.txt'.
 
 1. To reproduce the results of our [paper](http://proceedings.mlr.press/v77/zhao17a/zhao17a.pdf), use alpha_option="off" and beta_option="meta".  
 
-2. For the Polya-Gamma sampler (```PolyaGamRnd_Gam.m```), I used one of the [DSBN](https://github.com/zhegan27/dsbn_aistats2015). If you want to use the sampler, please cite the [paper](http://proceedings.mlr.press/v38/gan15.html).
+2. For the Polya-Gamma sampler (```PolyaGamRndTruncated.m```), I used one of the [DSBN](https://github.com/zhegan27/dsbn_aistats2015). If you want to use the sampler, please cite the [paper](http://proceedings.mlr.press/v38/gan15.html).
