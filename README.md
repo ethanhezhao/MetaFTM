@@ -3,6 +3,7 @@
 MetaFTM is a focused topic model that leverages metadata such as document labels and word embeddings, which enjoys improved performance on short text topic modelling.
 
 The code of MetaFTM extends the paper "A Word Embeddings Informed Focused Topic Model" in ACML 2017 [PDF](http://proceedings.mlr.press/v77/zhao17a/zhao17a.pdf).
+
 The original paper introduced focusing on the topic-word distributions, i.e., Phi, and the code applies a similar model construction that leverages document metadata to introduce focusing on the document-topic distributions, i.e., Theta.
 
 
