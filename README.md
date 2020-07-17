@@ -30,12 +30,12 @@ Please prepare your own documents in the above format. If you want to use this d
 
 6. Outputs:
 
-The code saves the metric of perplexity on the training/testing documents, as well as some statistics of the model, in a MAT file named './save/model.mat'.
+The code saves the metric of perplexity on the training/testing documents, as well as some statistics of the model, in a MAT file named ```./save/model.mat```.
 
-The code also prints the top words for topics saved in './save/top_words.txt'.
+The code also prints the top words for topics saved in ```./save/top_words.txt```.
 
 # Notes
 
-1. To reproduce the results of our [paper](http://proceedings.mlr.press/v77/zhao17a/zhao17a.pdf), use alpha_option="off" and beta_option="meta".  
+1. To reproduce the results of our [paper](http://proceedings.mlr.press/v77/zhao17a/zhao17a.pdf), use ```alpha_option="off"; beta_option="meta"```.  
 
 2. For the Polya-Gamma sampler (```PolyaGamRndTruncated.m```), I used one of the [DSBN](https://github.com/zhegan27/dsbn_aistats2015). If you want to use the sampler, please cite the [paper](http://proceedings.mlr.press/v38/gan15.html).
